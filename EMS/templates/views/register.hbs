@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body class="container-fluid registrationBody">
+    {{>navbar}}
+    <div class="outerSt pt-4 d-flex justify-content-center">
+        <div class="boxStyle card">
+            <h1>Registration Form</h1>
+
+            <form class="card-body" action="/register" method="POST" >
+
+
+                <div class="form-group">
+                    <label>First name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" name="fname"
+                        placeholder="Enter First Name">
+                </div>
+
+                <div class="form-group">
+                    <label>Last name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" name="lname"
+                        placeholder="Enter Last Name">
+                </div><br>
+                
+                <div class="form-group form-control pl-4">
+                    <div >
+                        <input class="form-check-input" type="radio" name="gender" id="exampleRadios1">
+                        <label class="form-check-label">Male </label>
+                    </div>
+
+                    <div >
+                        <input class="form-check-input" type="radio" name="gender" id="exampleRadios1">
+                        <label class="form-check-label">Female </label>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" class="form-control" id="exampleInputPassword1" name="phone"
+                        placeholder="Enter Phone">
+                </div>
+
+                <div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email"
+                        placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" name="pass"
+                        placeholder="Enter Password">
+                </div>
+
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" name="cpass"
+                        placeholder="Confirm Password">
+                </div>
+
+
+
+                <button type="submit" value="register" class="btn btn-primary regButton">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

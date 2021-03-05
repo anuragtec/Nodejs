@@ -1,0 +1,62 @@
+/* -------------------login form style----------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fjalla+One&family=Merriweather+Sans:wght@500&family=Sawarabi+Mincho&display=swap');
+
+
+
+.loginBody{
+    background-color: rgb(63, 243, 123);
+}
+
+.containerStyle{
+    padding-top: 100px;
+   
+}
+
+.cardStyle{
+    width: 40rem;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px  #363636;
+    height: 36rem;
+    line-height: 40px;
+}
+
+h2{
+    padding-top: 10px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 40px;
+    font-style: bold;
+}
+
+.customStyle{
+    font-size: 22px;
+}
+
+.boxWifdth{
+    width: 80%;
+}
+
+/* -----------navigation styling------------------------ */
+
+.customNav{
+    line-height: 70px;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+      
+}
+
+.spaceBet{
+    padding-left: 45px;
+    
+}
+
+/* -----------registration styling --------------- */
+
+
+
+/* ---------home styling-------- */
+
+.outerBox{
+    padding-top: 60px;
+}
